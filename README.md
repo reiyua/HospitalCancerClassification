@@ -1,7 +1,70 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# Hospital Cancer Risk Classification
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+A simple machine learning project that classifies patient cancer risk levels using demographic and health history data.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+## Overview
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+This project was created as part of an ICT and Machine Learning assessment scenario for TAFE NSW.
+
+The goal was to build and evaluate a neural network model capable of classifying patients into:
+
+- High Risk
+- Medium Risk
+- Low Risk
+
+The model helps healthcare professionals identify patients who may require closer monitoring or early intervention.
+
+---
+
+## Technologies Used
+
+- Python
+- Jupyter Notebook
+- Scikit-learn
+- Pandas
+- NumPy
+
+---
+
+## Machine Learning Model
+
+This project uses Scikit-learn's:
+
+- `MLPClassifier`
+
+The model was trained and evaluated using prepared healthcare data.
+
+---
+
+## Dataset Preparation
+
+### Age Categories
+
+Patient ages were grouped into:
+
+- 0–14
+- 15–24
+- 25–34
+- 35–44
+- 45–54
+- 55–64
+- 65–74
+- 75–84
+- 85+
+
+### Data Split
+
+The dataset was split into:
+
+- 70% Training
+- 15% Validation
+- 15% Testing
+
+---
+
+## Running the Notebook
+
+Clone the repository:
+
+```bash
+git clone https://github.com/reiyua/HospitalCancerClassification.git
