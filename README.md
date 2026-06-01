@@ -68,3 +68,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/reiyua/HospitalCancerClassification.git
+
+```
+You can also run it online:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/reiyua/HospitalCancerClassification/HEAD)
