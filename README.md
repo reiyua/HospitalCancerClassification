@@ -74,7 +74,7 @@ You can also run it online:
 
 ## Run in Google Colab
 
-https://colab.research.google.com/assets/colab-badge.svg](https://colab.research.google.com/github/reiyua/HospitalCancerClassification/blob/main/HospitalCancerClassification.ipynb)
+[![Run in Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/reiyua/HospitalCancerClassification/blob/main/HospitalCancerClassification.ipynb
 
 ## Run in mybinder.org
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/reiyua/HospitalCancerClassification/HEAD)
